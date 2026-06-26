@@ -4,6 +4,19 @@
 
 It does not use OCR. It samples frames with `ffmpeg`, measures normalized visual difference between consecutive frames, finds long low-motion spans that are bracketed by activity, and writes a cleaned video plus a JSON manifest.
 
+## Demo / Example
+
+
+Command: `python3 clip_idle.py onput.mkv -o demo_output.gif --aggressiveness 3 --format gif --gif-width 920 --gif-fps 5`
+
+Output video: 
+<p align="center">
+  <img src="./docs/demo_output.gif" alt="Demo" width="920">
+  <sub>
+    Original file size: 11.2 MB, mkf format, output: 3.4MB, loop gif format 
+    </sub>
+</p>
+
 ## Usage
 
 ```bash

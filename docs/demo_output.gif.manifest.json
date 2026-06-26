@@ -1,0 +1,117 @@
+{
+  "input": "/Users/igor/Movies/2026-06-26 16-36-24.mkv",
+  "output": "/Users/igor/workspace/tmp/codex_clip/demo_output.gif",
+  "duration": 114.65,
+  "removed_duration": 85.2,
+  "preset": "codex",
+  "settings": {
+    "format": "gif",
+    "aggressiveness": 3.0,
+    "threshold": 0.0105,
+    "min_duration": 0.3333333333333333,
+    "padding": 0.30000000000000004,
+    "sample_fps": 2.0,
+    "scale_width": 320,
+    "crop": "full",
+    "gif_fps": 5,
+    "gif_width": 920
+  },
+  "removed": [
+    {
+      "start": 4.2,
+      "end": 5.3,
+      "duration": 1.1,
+      "confidence": 0.5041,
+      "mean_difference": 0.005184,
+      "samples": 2
+    },
+    {
+      "start": 6.2,
+      "end": 15.3,
+      "duration": 9.1,
+      "confidence": 0.9921,
+      "mean_difference": 0.000265,
+      "samples": 16
+    },
+    {
+      "start": 16.7,
+      "end": 18.8,
+      "duration": 2.1,
+      "confidence": 0.9884,
+      "mean_difference": 0.000187,
+      "samples": 4
+    },
+    {
+      "start": 19.7,
+      "end": 22.3,
+      "duration": 2.6,
+      "confidence": 0.8211,
+      "mean_difference": 7.9e-05,
+      "samples": 4
+    },
+    {
+      "start": 24.7,
+      "end": 27.8,
+      "duration": 3.1,
+      "confidence": 0.9912,
+      "mean_difference": 0.000142,
+      "samples": 6
+    },
+    {
+      "start": 28.7,
+      "end": 30.8,
+      "duration": 2.1,
+      "confidence": 0.9838,
+      "mean_difference": 0.000262,
+      "samples": 4
+    },
+    {
+      "start": 31.7,
+      "end": 37.3,
+      "duration": 5.6,
+      "confidence": 0.9947,
+      "mean_difference": 8.5e-05,
+      "samples": 11
+    },
+    {
+      "start": 38.2,
+      "end": 78.8,
+      "duration": 40.6,
+      "confidence": 0.9929,
+      "mean_difference": 0.000145,
+      "samples": 76
+    },
+    {
+      "start": 79.7,
+      "end": 82.3,
+      "duration": 2.6,
+      "confidence": 0.9945,
+      "mean_difference": 8.9e-05,
+      "samples": 5
+    },
+    {
+      "start": 84.2,
+      "end": 98.3,
+      "duration": 14.1,
+      "confidence": 0.9935,
+      "mean_difference": 0.000107,
+      "samples": 24
+    },
+    {
+      "start": 103.2,
+      "end": 104.3,
+      "duration": 1.1,
+      "confidence": 0.8247,
+      "mean_difference": 4e-06,
+      "samples": 2
+    },
+    {
+      "start": 105.7,
+      "end": 106.8,
+      "duration": 1.1,
+      "confidence": 0.8235,
+      "mean_difference": 2.4e-05,
+      "samples": 2
+    }
+  ]
+}
